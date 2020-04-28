@@ -5,7 +5,7 @@ package bls381
 import (
 	"math/bits"
 
-	"github.com/consensys/gurvy/bls381/fp"
+	"github.com/alexeykiselev/gurvy/bls381/fp"
 )
 
 // e12 is a degree-two finite field extension of fp6:

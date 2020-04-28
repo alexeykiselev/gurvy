@@ -4,8 +4,8 @@ package bls381
 import (
 	"testing"
 
-	"github.com/consensys/gurvy/bls381/fp"
-	"github.com/consensys/gurvy/bls381/fr"
+	"github.com/alexeykiselev/gurvy/bls381/fp"
+	"github.com/alexeykiselev/gurvy/bls381/fr"
 )
 
 func TestPairingLineEval(t *testing.T) {

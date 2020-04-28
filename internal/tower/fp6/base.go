@@ -1,8 +1,8 @@
 package fp6
 
 import (
-	"github.com/consensys/gurvy/internal/tower"
-	"github.com/consensys/gurvy/internal/tower/fp2"
+	"github.com/alexeykiselev/gurvy/internal/tower"
+	"github.com/alexeykiselev/gurvy/internal/tower/fp2"
 )
 
 // CodeSource is the aggregated source code

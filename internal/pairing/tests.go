@@ -7,8 +7,8 @@ package {{.PackageName}}
 import (
 	"testing"
 
-	"github.com/consensys/gurvy/{{.PackageName}}/fp"
-	"github.com/consensys/gurvy/{{.PackageName}}/fr"
+	"github.com/alexeykiselev/gurvy/{{.PackageName}}/fp"
+	"github.com/alexeykiselev/gurvy/{{.PackageName}}/fr"
 )
 
 func TestPairingLineEval(t *testing.T) {

@@ -24,9 +24,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/consensys/gurvy/bls381/fr"
-	"github.com/consensys/gurvy/utils/debug"
-	"github.com/consensys/gurvy/utils/parallel"
+	"github.com/alexeykiselev/gurvy/bls381/fr"
+	"github.com/alexeykiselev/gurvy/utils/debug"
+	"github.com/alexeykiselev/gurvy/utils/parallel"
 )
 
 // G2Jac is a point with e2 coordinates

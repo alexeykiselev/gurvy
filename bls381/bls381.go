@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/consensys/gurvy"
-	"github.com/consensys/gurvy/bls381/fp"
-	"github.com/consensys/gurvy/utils"
+	"github.com/alexeykiselev/gurvy"
+	"github.com/alexeykiselev/gurvy/bls381/fp"
+	"github.com/alexeykiselev/gurvy/utils"
 )
 
 // generate code for field tower, curve groups

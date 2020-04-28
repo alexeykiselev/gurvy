@@ -48,11 +48,11 @@ package {{.PackageName}}
 
 import (
 	{{if eq .CType "fp.Element"}}
-		"github.com/consensys/gurvy/{{.PackageName}}/fp"
+		"github.com/alexeykiselev/gurvy/{{.PackageName}}/fp"
 	{{end}}
-	"github.com/consensys/gurvy/{{.PackageName}}/fr"
-	"github.com/consensys/gurvy/utils/parallel"
-	"github.com/consensys/gurvy/utils/debug"
+	"github.com/alexeykiselev/gurvy/{{.PackageName}}/fr"
+	"github.com/alexeykiselev/gurvy/utils/parallel"
+	"github.com/alexeykiselev/gurvy/utils/debug"
 	"sync"
 )
 

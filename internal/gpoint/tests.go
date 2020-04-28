@@ -7,8 +7,8 @@ package {{.PackageName}}
 import (
 	"testing"
 	"fmt"
-	"github.com/consensys/gurvy/utils/parallel"
-	"github.com/consensys/gurvy/{{.PackageName}}/fr"
+	"github.com/alexeykiselev/gurvy/utils/parallel"
+	"github.com/alexeykiselev/gurvy/{{.PackageName}}/fr"
 )
 
 func Test{{.Name}}JacToAffineFromJac(t *testing.T) {

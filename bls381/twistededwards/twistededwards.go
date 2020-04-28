@@ -17,9 +17,10 @@ limitations under the License.
 package twistededwards
 
 import (
-	"github.com/consensys/gurvy/bls381/fr"
 	"math/big"
 	"sync"
+
+	"github.com/alexeykiselev/gurvy/bls381/fr"
 )
 
 // CurveParams curve parameters: ax^2 + y^2 = 1 + d*x^2*y^2

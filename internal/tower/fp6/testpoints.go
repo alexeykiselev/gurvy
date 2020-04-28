@@ -6,9 +6,9 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/consensys/gurvy/internal/curve"
-	"github.com/consensys/gurvy/internal/testpoints"
-	"github.com/consensys/gurvy/internal/tower"
+	"github.com/alexeykiselev/gurvy/internal/curve"
+	"github.com/alexeykiselev/gurvy/internal/testpoints"
+	"github.com/alexeykiselev/gurvy/internal/tower"
 )
 
 var Methods = [...]tower.Method{

@@ -1,6 +1,6 @@
 package fp2
 
-import "github.com/consensys/gurvy/internal/tower"
+import "github.com/alexeykiselev/gurvy/internal/tower"
 
 // CodeSource is the aggregated source code
 var CodeSource []string
@@ -34,7 +34,7 @@ const base = `
 package {{.PackageName}}
 
 import (
-	"github.com/consensys/gurvy/{{.PackageName}}/fp"
+	"github.com/alexeykiselev/gurvy/{{.PackageName}}/fp"
 )
 
 // {{.Name}} is a degree-two finite field extension of fp.Element:

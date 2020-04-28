@@ -19,7 +19,7 @@ package twistededwards
 import (
 	"math/bits"
 
-	"github.com/consensys/gurvy/bls381/fr"
+	"github.com/alexeykiselev/gurvy/bls381/fr"
 )
 
 // Point point on a twisted Edwards curve

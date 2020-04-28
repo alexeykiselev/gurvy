@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/consensys/gurvy/bls381/fr"
+	"github.com/alexeykiselev/gurvy/bls381/fr"
 )
 
 func TestG2JacToAffineFromJac(t *testing.T) {

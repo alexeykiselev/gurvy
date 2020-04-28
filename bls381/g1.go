@@ -23,13 +23,13 @@ package bls381
 import (
 	"runtime"
 
-	"github.com/consensys/gurvy/bls381/fp"
+	"github.com/alexeykiselev/gurvy/bls381/fp"
 
 	"sync"
 
-	"github.com/consensys/gurvy/bls381/fr"
-	"github.com/consensys/gurvy/utils/debug"
-	"github.com/consensys/gurvy/utils/parallel"
+	"github.com/alexeykiselev/gurvy/bls381/fr"
+	"github.com/alexeykiselev/gurvy/utils/debug"
+	"github.com/alexeykiselev/gurvy/utils/parallel"
 )
 
 // G1Jac is a point with fp.Element coordinates

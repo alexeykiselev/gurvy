@@ -10,13 +10,13 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/consensys/gurvy/internal/gpoint"
-	"github.com/consensys/gurvy/internal/tower"
-	"github.com/consensys/gurvy/internal/tower/fp12"
-	"github.com/consensys/gurvy/internal/tower/fp2"
-	"github.com/consensys/gurvy/internal/tower/fp6"
+	"github.com/alexeykiselev/gurvy/internal/gpoint"
+	"github.com/alexeykiselev/gurvy/internal/tower"
+	"github.com/alexeykiselev/gurvy/internal/tower/fp12"
+	"github.com/alexeykiselev/gurvy/internal/tower/fp2"
+	"github.com/alexeykiselev/gurvy/internal/tower/fp6"
 
-	"github.com/consensys/goff/cmd"
+	"github.com/alexeykiselev/goff/cmd"
 )
 
 const fp2Name = "e2"

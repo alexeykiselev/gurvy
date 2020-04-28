@@ -3,7 +3,7 @@
 package bls381
 
 import (
-	"github.com/consensys/gurvy/bls381/fp"
+	"github.com/alexeykiselev/gurvy/bls381/fp"
 )
 
 // e2 is a degree-two finite field extension of fp.Element:

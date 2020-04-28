@@ -5,7 +5,7 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/consensys/gurvy/internal/tower"
+	"github.com/alexeykiselev/gurvy/internal/tower"
 )
 
 var Methods = [...]tower.Method{
